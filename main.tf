@@ -28,7 +28,7 @@ resource "azurerm_linux_web_app" "webapp" {
 
   site_config {
     application_stack {
-      docker_image_name = "ghcr.io/elias969/gyn.git"
+      docker_image_name = "ghcr.io/elias969/gym.git"
       docker_registry_url = "https://ghcr.io"
     }
   }
