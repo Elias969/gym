@@ -30,6 +30,7 @@ resource "azurerm_linux_web_app" "webapp" {
     application_stack {
       docker_image_name = "ghcr.io/elias969/gyn.git"
       docker_registry_url = "https://ghcr.io"
+      docker_image_tag = "latest"
     }
   }
 
